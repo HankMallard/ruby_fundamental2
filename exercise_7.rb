@@ -20,3 +20,9 @@ end
 
 #Display cohorts with keys
 puts students.keys
+
+#Delete cohort 2
+students.delete(:cohorts2)
+
+#Display the updated list
+puts students
